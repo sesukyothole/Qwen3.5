@@ -17,12 +17,14 @@ Welcome to the GitHub repository of Qwen3.6 (& Qwen3.5). Here, you can find offi
 
 ## Introduction
 
+### Qwen3.6
+
 Qwen3.6 is the latest addition to the Qwen model family. Building upon the fundamental breakthroughs of Qwen3.5, this release prioritizes stability and real-world utility. It offers developers a more intuitive, responsive, and genuinely productive coding experience, shaped by direct community feedback. This update delivers substantial upgrades, particularly in:
 
 - **Agentic Coding:** The model now handles front-end workflows and repository-level reasoning with greater fluency and precision.
 - **Thinking Preservation:** A new feature retains thinking context across conversation history, streamlining iterative development and reducing overhead.
 
----
+### Qwen3.5
 
 Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency.
 
@@ -40,8 +42,8 @@ Qwen3.5 features the following enhancement:
 
 
 ## News
-
-- 2026-04-16: Qwen3.6-35B-A3B are now availabe on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen36) and [ModelScope](https://modelscope.cn/collections/Qwen/Qwen36). Read more on our [release blog](https://qwen.ai/blog?id=qwen3.6-35b-a3b)
+- 2026-04-22: Qwen3.6-27B is now availabe on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen36) and [ModelScope](https://modelscope.cn/collections/Qwen/Qwen36). Read more on our [release blog](https://qwen.ai/blog?id=qwen3.6-27b)!
+- 2026-04-16: Qwen3.6-35B-A3B is now availabe on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen36) and [ModelScope](https://modelscope.cn/collections/Qwen/Qwen36). Read more on our [release blog](https://qwen.ai/blog?id=qwen3.6-35b-a3b)!
 - 2026-03-02: Qwen3.5-9B, Qwen3.5-4B, Qwen3.5-2B, and Qwen3.5-0.8B are now available on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen35) and [ModelScope](https://modelscope.cn/collections/Qwen/Qwen35)!
 - 2026-02-24: Qwen3.5-122B-A10B, Qwen3.5-35B-A3B, and Qwen3.5-27B are released. Check out the model cards on [Hugging Face Hub](https://huggingface.co/collections/Qwen/qwen35) or [ModelScope](https://modelscope.cn/collections/Qwen/Qwen35) for more information!
 - 2026-02-16: We release Qwen3.5. The first release includes a 397B-A17B MoE model. Read more on our [release blog](https://qwen.ai/blog?id=qwen3.5). More sizes are coming & Happy Chinese New Year!
@@ -60,7 +62,15 @@ The official model weights are released on:
 
 ## Benchmarks
 
+**Qwen3.6 Open Models**
+
+![Qwen3.6-27B Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/Figures/qwen3.6_27b_score.png)
+
 ![Qwen3.6-35B-A3B Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.6/Figures/qwen3.6_35b_a3b_score.png)
+
+For detailed results, please check out the [Qwen3.6-35B-A3B blog](https://qwen.ai/blog?id=qwen3.6-35b-a3b) and the [Qwen3.6-27B blog](https://qwen.ai/blog?id=qwen3.6-27b).
+
+**Qwen3.5 Open Models**
 
 ![Qwen3.5-397B-A17B Benchmark Results](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3.5/Figures/qwen3.5_397b_a17b_score.png)
 
@@ -68,7 +78,7 @@ The official model weights are released on:
 
 ![Qwen3.5-9B and Qwen3.5-4B Benchmark Results](https://qianwen-res.oss-accelerate-overseas.aliyuncs.com/Qwen3.5/Figures/qwen3.5_small_size_score.png)
 
-For detailed results, please check out the [Qwen3.6-35B-A3B blog](https://qwen.ai/blog?id=qwen3.6-35b-a3b) and the [Qwen3.5 blog](https://qwen.ai/blog?id=qwen3.5).
+For detailed results, please check out the [Qwen3.5 blog](https://qwen.ai/blog?id=qwen3.5).
 
 ## Quickstart
 
@@ -80,7 +90,7 @@ You can try Qwen3.6 on our official sites and enjoy the native experience with e
 
 #### Qwen Studio
 
-For users who simply would like to try Qwen3.6, [Qwen Studio](https://chat.qwen.ai) is just a touch away. 
+For users who simply would like to try Qwen3.6, [Qwen Studio](https://chat.qwen.ai) (formerly known as Qwen Chat) is just a touch away. 
 Qwen Studio provides Web UI and desktop and mobile applications, with a familiar, easy-to-use user interface.
 Qwen Studio is also a playground for our ideas, showcasing how Qwen3.6 can be integrated into your workflow and applications.
 
@@ -173,22 +183,31 @@ You can find the license files in the respective Hugging Face repositories.
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
+@misc{qwen3.6-27b,
+    title = {{Qwen3.6-27B}: Flagship-Level Coding in a {27B} Dense Model},
+    author = {{Qwen Team}},
+    year = {2026},
+    month = {April},
+    url = {https://qwen.ai/blog?id=qwen3.6-27b}
+}
+
 @misc{qwen3.6-35b-a3b,
     title = {{Qwen3.6-35B-A3B}: Agentic Coding Power, Now Open to All},
-    url = {https://qwen.ai/blog?id=qwen3.6-35b-a3b},
     author = {{Qwen Team}},
+    year = {2026},
     month = {April},
-    year = {2026}
+    url = {https://qwen.ai/blog?id=qwen3.6-35b-a3b}
 }
 
 @misc{qwen3.5,
     title  = {{Qwen3.5}: Towards Native Multimodal Agents},
     author = {{Qwen Team}},
-    month  = {February},
     year   = {2026},
+    month  = {February},
     url    = {https://qwen.ai/blog?id=qwen3.5}
 }
 ```
 
 ## Contact Us
+
 If you are interested to leave a message to either our research team or product team, join our [Discord](https://discord.gg/z3GAxXZ9Ce) or [WeChat groups](https://github.com/QwenLM/Qwen3/blob/main/assets/wechat.png)!
